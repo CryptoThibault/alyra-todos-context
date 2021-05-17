@@ -1,5 +1,3 @@
-import React from "react"
-
 const ColorModeSwitcher = ({ darkMode, setDarkMode }) => {
   const handleModeChange = () => {
     setDarkMode((mode) => !mode)
